@@ -1,6 +1,19 @@
+# .degitignore
 
 <!-- Excludes the .github folder (issue/PR templates, workflows) when using degit -->
 .github
 
 <!-- Excludes the SECURITY.md file (security policy, not needed in a one-off project) -->
 SECURITY.md
+
+<!-- Excludes the CHANGELOG (changelog is template-related, not needed in one-off projects) -->
+CHANGELOG.md
+
+<!-- Excludes the Code of Conduct (community guidelines only for template repo) -->
+CODE_OF_CONDUCT.md
+
+<!-- Excludes contributing guidelines (not relevant in duplicated single projects) -->
+CONTRIBUTING.md
+
+<!-- Excludes support docs (only needed for template repo management) -->
+SUPPORT.md
