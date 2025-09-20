@@ -15,7 +15,17 @@ WARNINGS
 
 <p align="center">
   <img src="https://img.shields.io/badge/README-.md-blue?style=flat&labelColor=2f2f2f&logo=markdown&logoColor=white" alt="README badge" width="170">
-</p>
+</p
+
+## 📌 Quick Access
+
+- [README.md](README.md)
+- [LICENSE](LICENSE)
+- [.gitignore](.gitignore)
+- [.prettierrc.json](.prettierrc.json)
+- [src/](src/)
+
+---
 
 📋 Table of Contents
 
