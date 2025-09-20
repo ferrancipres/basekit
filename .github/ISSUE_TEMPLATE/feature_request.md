@@ -1,15 +1,15 @@
 ---
 name: Feature request
-about: Propón una mejora o nueva función
+about: Suggest an improvement or new feature
 title: "feat: "
 labels: ["enhancement"]
 assignees: ["ferrancipres"]
 ---
 
-**Problema o necesidad**
+**Problem or need**
 
-**Propuesta**
+**Proposed solution**
 
-**Alternativas**
+**Alternatives considered**
 
-**Impacto esperado**
+**Expected impact**
