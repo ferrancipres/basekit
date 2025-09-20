@@ -19,8 +19,6 @@ WARNINGS
 
 ## 📌 Quick Access
 
-## 📌 Quick Access
-
 - [README.md](README.md)
 - [LICENSE](LICENSE)
 - [config/.gitignore](config/.gitignore)
