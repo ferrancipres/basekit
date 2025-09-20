@@ -1,5 +1,6 @@
 # Normalize line endings in all text files
 * text=auto eol=lf
+*.{png,jpg,jpeg,gif,ico,pdf} binary
 
 # Binary files that must not be modified
 *.png binary
