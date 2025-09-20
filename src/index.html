@@ -1,0 +1,94 @@
+<!-- ======================================================================
+PLANTILLA HTML — ALERTAS OPERATIVAS (v2025-09-19)
+Ámbito: SOLO HTML. Lista de problemas y cambios frecuentes para vigilar.
+----------------------------------------------------------------------
+
+META / SEO
+- <html lang="es"> en <html>.
+- <meta charset="utf-8"> primero.
+- <meta name="viewport" content="width=device-width, initial-scale=1"> único.
+- <title> único (≤60).
+- <meta name="description" content="…"> único (≤160).
+- <link rel="canonical" href="https://dominio.com/ruta/"> absoluto, https, sin UTM, 1 por página.
+- Staging: <meta name="robots" content="noindex,nofollow"> y quitar en prod.
+- Evitar http-equiv obsoletos (X-UA-Compatible).
+- Si cambia dominio/ruta, actualizar canonical y sitemap.
+
+FUENTES (OPCIONAL — mantener comentado si no se usan)
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+ALERTA
+- Descomentar SOLO si aplicas esa familia en CSS; si no, descargas inútiles.
+- Máx 2–3 preconnect en total. Mantén crossorigin en gstatic.
+- Mantén display=swap para evitar FOIT.
+- No uses @import en CSS para Google Fonts (más lento).
+- Si autoalojas, elimina el bloque y usa preload + @font-face.
+- Si cambias de familia, cambia también --ff-sans en CSS y la URL aquí.
+
+ADVERTENCIA
+- <script type="module"> en <head> es válido (defer implícito). Evita <script> clásico que bloquea.
+- modulepreload: solo si medido mejora.
+
+CHANGELOG
+- 2025-09-19: versión inicial.
+====================================================================== -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos mínimos -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Html__Css__Template</title>
+    <meta
+      name="description"
+      content="A boilerplate for static websites using HTML5 and CSS3. Designed as a clean starting point for new frontend projects.."
+    />
+
+    <!-- Icono -->
+    <!-- <link rel="icon" href="/favicon.ico" /> -->
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Fuentes (opcional)
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <header>
+      <!-- <div class="logo">logo</div>
+      <nav>
+        <ul>
+          <li><a href="#sec-1">Sección 1</a></li>
+          ...
+        </ul>
+      </nav> -->
+    </header>
+
+    <main id="main">
+      <h1>Html__Css__Template</h1>
+
+      <section id="section">
+        <h2 id="section-title">Section Title</h2>
+        <p>Content…</p>
+      </section>
+
+      <section id="section">
+        <h2 id="section-title">Section Title</h2>
+        <p>Content…</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Content…</p>
+    </footer>
+  </body>
+</html>
