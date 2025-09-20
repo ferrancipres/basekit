@@ -1,24 +1,24 @@
 ---
 name: Bug report
-about: Describe un error reproducible
+about: Describe a reproducible error
 title: "bug: "
 labels: ["bug"]
 assignees: ["ferrancipres"]
 ---
 
-**Resumen**
-¿Qué falla?
+**Summary**
+What is failing?
 
-**Pasos para reproducir**
+**Steps to reproduce**
 
 1.
 2.
 3.
 
-**Comportamiento esperado**
+**Expected behavior**
 
-**Evidencia**
-Logs o capturas.
+**Evidence**
+Logs or screenshots.
 
-**Entorno**
-SO, navegador, versión.
+**Environment**
+OS, browser, version.
