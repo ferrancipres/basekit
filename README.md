@@ -126,23 +126,32 @@ cd <repo>
 #### Project Structure
 
 ```sh
-project-name/                       # Root directory of the project
-├─ .vscode/                         # Visual Studio Code project-specific settings
-│  └─ settings.json                 # VSCode preferences (formatting, extensions, editor rules)
-├─ config/                          # Project configuration files
-   └─ .degitignore                  # Defines which files/folders Git should ignore
-│  └─ .editorconfig                 # Enforces consistent coding style across different editors
-│  └─ .gitignore                    # Defines which files/folders Git should ignore
-│  └─ .gitattributes                # Normalizes line endings and marks binary files
-│  └─ .prettierrc.json              # Prettier configuration file (code formatting rules)
-│  └─ .prettierignore               # Files/folders excluded from Prettier formatting
-├─ img/                             # Folder for image assets used in the project
-├─ src/                             # Source code directory
-│  └─ index.html                    # Main HTML entry file (project entry point)
-│  └─ styles.css                    # Base CSS stylesheet for styling
-├─ LICENSE                          # License file specifying usage terms (e.g., MIT)
-└─ README.md                        # Main documentation file with project description and usage
-
+basekit/                                # Root directory of the BaseKit template
+├─ .github/                             # GitHub-specific configuration and templates
+│  └─ ISSUE_TEMPLATE/                   # Directory containing issue templates
+│     └─ bug_report.md                  # Template for reporting reproducible bugs
+│     └─ feature_request.md             # Template for suggesting new features
+│  └─ CODEOWNERS                        # Defines repository code owners who must review PRs
+│  └─ FUNDING.yml                       # Configures sponsor links (GitHub Sponsors, BuyMeACoffee, etc.)
+│  └─ PULL_REQUEST_TEMPLATE.md          # Template for standardizing Pull Requests
+├─ .vscode/                             # Visual Studio Code project configuration
+│  └─ settings.json                     # VSCode preferences (formatting, extensions, editor rules)
+├─ img/                                 # Folder for image assets
+├─ src/                                 # Project source code
+│  ├─ index.html                        # Main HTML file (entry point)
+│  ├─ styles.css                        # Base CSS stylesheet
+├─ .editorconfig                        # Enforces consistent coding styles across editors/IDEs
+├─ .gitignore                           # Defines files/folders Git should ignore
+├─ .gitattributes                       # Normalizes line endings and defines binary files
+├─ .prettierrc.json                     # Prettier configuration file (formatting rules)
+├─ .prettierignore                      # Files/folders excluded from Prettier formatting
+├─ CHANGELOG.md                         # Version history and notable project changes
+├─ CODE_OF_CONDUCT.md                   # Contributor behavior rules (Contributor Covenant)
+├─ CONTRIBUTING.md                      # Contribution guidelines (workflow, branches, PR rules)
+├─ LICENSE                              # License for project usage (MIT or other)
+├─ README.md                            # Main documentation: description, usage, structure
+├─ SECURITY.md                          # Security policy and vulnerability reporting process
+└─ SUPPORT.md                           # How to get help (issues, scope, response times)
 ```
 
 ---
