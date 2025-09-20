@@ -19,10 +19,15 @@ WARNINGS
 
 ## 📌 Quick Access
 
+## 📌 Quick Access
+
 - [README.md](README.md)
 - [LICENSE](LICENSE)
-- [.gitignore](.gitignore)
-- [.prettierrc.json](.prettierrc.json)
+- [config/.gitignore](config/.gitignore)
+- [config/.prettierrc.json](config/.prettierrc.json)
+- [config/.prettierignore](config/.prettierignore)
+- [config/.gitattributes](config/.gitattributes)
+- [config/.editorconfig](config/.editorconfig)
 - [src/](src/)
 
 ---
@@ -46,6 +51,7 @@ WARNINGS
 15. [License](#license)
 16. [Contact](#contact)
 17. [Credits](#credits)
+18. [Changelog](#changelog)
 
 ---
 
@@ -107,19 +113,29 @@ cd <repo>
 #### Project Structure
 
 ```sh
-project-name/
-├─ .vscode/                # Configuración específica de VSCode
-│  └─ settings.json        # Preferencias del proyecto (formateo, reglas, etc.)
-├─ src/                    # Código fuente del proyecto
-│  ├─ index.html           # Documento principal HTML
-│  ├─ styles.css            # Estilos base CSS
-├─ img/                    # Carpeta para imágenes
-├─ .prettierrc.json        # Configuración de Prettier
-├─ .prettierignore         # Archivos/carpetas a ignorar por Prettier
-├─ .gitignore              # Archivos/carpetas a ignorar en Git
-├─ .gitattributes          # Normalización de finales de línea y binarios
-├─ LICENSE                 # Licencia del proyecto
-└─ README.md               # Documentación inicial del proyecto
+project-name/                       # Root directory of the project
+├─ .github/                         # GitHub-specific configurations and templates
+│  └─ ISSUE_TEMPLATE/               # Directory containing issue templates
+│     └─ bug_report.md              # Template for reporting bugs (predefined structure)
+│     └─ feature_request.md         # Template for suggesting new features or improvements
+│  └─ CODEOWNERS                    # Defines repository code owners who must review changes
+│  └─ FUNDING.yml                   # Configures sponsor links (GitHub Sponsors, BuyMeACoffee, etc.)
+│  └─ PULL_REQUEST_TEMPLATE.md      # Template for standardizing Pull Requests
+├─ .vscode/                         # Visual Studio Code project-specific settings
+│  └─ settings.json                 # VSCode preferences (formatting, extensions, editor rules)
+├─ config/                          # Project configuration files
+│  └─ .editorconfig                 # Enforces consistent coding style across different editors
+│  └─ .gitignore                    # Defines which files/folders Git should ignore
+│  └─ .gitattributes                # Normalizes line endings and marks binary files
+│  └─ .prettierrc.json              # Prettier configuration file (code formatting rules)
+│  └─ .prettierignore               # Files/folders excluded from Prettier formatting
+├─ img/                             # Folder for image assets used in the project
+├─ src/                             # Source code directory
+│  └─ index.html                    # Main HTML entry file (project entry point)
+│  └─ styles.css                    # Base CSS stylesheet for styling
+├─ LICENSE                          # License file specifying usage terms (e.g., MIT)
+└─ README.md                        # Main documentation file with project description and usage
+
 ```
 
 ---
@@ -203,3 +219,18 @@ See [LICENSE](./LICENSE) for details.
 
 - [FreeCodeCamp Guide](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/?utm_source=chatgpt.com)
 - Adapted by **Ferran Ciprés**
+
+---
+
+#### Changelog
+All notable changes to this project will be documented here.
+[1.0.0] - 2025-09-20
+
+- Initial release of html-css-template
+- Base project structure (src/, img/, .vscode/, config/)
+- Prettier configuration (.prettierrc.json, .prettierignore)
+- Git settings (.gitignore, .gitattributes)
+- Editor settings (.editorconfig)
+- Documentation (README.md)
+- License (MIT)
+- GitHub templates for Issues and Pull Requests
