@@ -133,6 +133,7 @@ project-name/                       # Root directory of the project
 ├─ src/                             # Source code directory
 │  └─ index.html                    # Main HTML entry file (project entry point)
 │  └─ styles.css                    # Base CSS stylesheet for styling
+├─ .degitignore                     # Defines which files/folders Git should ignore
 ├─ LICENSE                          # License file specifying usage terms (e.g., MIT)
 ├─ README.md                        # Main documentation file with project description and usage
 └─ SECURITY.md                      # Main documentation file with project security
