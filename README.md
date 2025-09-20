@@ -134,7 +134,8 @@ project-name/                       # Root directory of the project
 │  └─ index.html                    # Main HTML entry file (project entry point)
 │  └─ styles.css                    # Base CSS stylesheet for styling
 ├─ LICENSE                          # License file specifying usage terms (e.g., MIT)
-└─ README.md                        # Main documentation file with project description and usage
+├─ README.md                        # Main documentation file with project description and usage
+└─ SECURITY.md                      # Main documentation file with project security
 
 ```
 
