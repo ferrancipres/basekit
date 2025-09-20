@@ -1,6 +1,9 @@
-# .degitignore — files/folders to exclude when using degit
+# .degitignore — files/folders to exclude when cloning with degit
 
-/.github/
+# GitHub meta (issues/PR templates, workflows)
+.github
+
+# Repo-only docs (not needed in one-off clones)
 SECURITY.md
 CHANGELOG.md
 CODE_OF_CONDUCT.md
