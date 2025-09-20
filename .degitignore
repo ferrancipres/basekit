@@ -1,11 +1,2 @@
-# .degitignore — exclude files/folders when using degit
 
-# GitHub meta (templates, workflows)
-.github
-
-# Repo-only docs
-SECURITY.md
-CHANGELOG.md
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
 SUPPORT.md
