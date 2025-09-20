@@ -1,7 +1,7 @@
-# Normaliza finales de línea en todos los archivos de texto
+# Normalize line endings in all text files
 * text=auto eol=lf
 
-# Archivos binarios que no deben tocarse
+# Binary files that must not be modified
 *.png binary
 *.jpg binary
 *.jpeg binary

@@ -7,39 +7,36 @@ META / SEO
 - <html lang="es"> en <html>.
 - <meta charset="utf-8"> primero.
 - <meta name="viewport" content="width=device-width, initial-scale=1"> único.
-- <title> único (≤60).
-- <meta name="description" content="…"> único (≤160).
-- <link rel="canonical" href="https://dominio.com/ruta/"> absoluto, https, sin UTM, 1 por página.
-- Staging: <meta name="robots" content="noindex,nofollow"> y quitar en prod.
-- Evitar http-equiv obsoletos (X-UA-Compatible).
-- Si cambia dominio/ruta, actualizar canonical y sitemap.
+- <title> Title (≤60).
+- <meta name="description" content="…"> Description(≤160).
+- <link rel="canonical" href="https://dominio.com/ruta/">
+- Avoid obsolete http-equiv (X-UA-Compatible).
+- If the domain/path changes, update the canonical and sitemap.
 
-FUENTES (OPCIONAL — mantener comentado si no se usan)
+FONT (OPTIONAL — keep commented if not used)
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-ALERTA
-- Descomentar SOLO si aplicas esa familia en CSS; si no, descargas inútiles.
-- Máx 2–3 preconnect en total. Mantén crossorigin en gstatic.
-- Mantén display=swap para evitar FOIT.
-- No uses @import en CSS para Google Fonts (más lento).
-- Si autoalojas, elimina el bloque y usa preload + @font-face.
-- Si cambias de familia, cambia también --ff-sans en CSS y la URL aquí.
+COMMENTS
+- Uncomment ONLY if you apply that family in CSS; otherwise, it causes unnecessary downloads.
+- Max 2–3 preconnects in total. Keep crossorigin on gstatic.
+- Keep display=swap to avoid FOIT.
+- Do not use @import in CSS for Google Fonts (slower).
+- If self-hosting, remove the block and use preload + @font-face.
+- If you change the family, also update --ff-sans in CSS and the URL here.
 
-ADVERTENCIA
-- <script type="module"> en <head> es válido (defer implícito). Evita <script> clásico que bloquea.
-- modulepreload: solo si medido mejora.
+WARNINGS
+- <script type="module"> in <head> is valid (implicit defer). Avoid classic <script> that blocks.
+- modulepreload: only if measurements show improvement.
 
-CHANGELOG
-- 2025-09-19: versión inicial.
 ====================================================================== -->
 
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <!-- Metadatos mínimos -->
+    <!-- Minimum metadata -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Html__Css__Template</title>
@@ -48,13 +45,13 @@ CHANGELOG
       content="A boilerplate for static websites using HTML5 and CSS3. Designed as a clean starting point for new frontend projects.."
     />
 
-    <!-- Icono -->
+    <!-- Icon -->
     <!-- <link rel="icon" href="/favicon.ico" /> -->
 
-    <!-- CSS principal -->
+    <!-- CSS main -->
     <link rel="stylesheet" href="styles.css" />
 
-    <!-- Fuentes (opcional)
+    <!-- Font (optional)
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -67,7 +64,7 @@ CHANGELOG
       <!-- <div class="logo">logo</div>
       <nav>
         <ul>
-          <li><a href="#sec-1">Sección 1</a></li>
+          <li><a href="#sec-1">Section 1</a></li>
           ...
         </ul>
       </nav> -->
