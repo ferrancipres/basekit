@@ -126,22 +126,21 @@ cd <repo>
 #### Project Structure
 
 ```sh
-project-name/                       # Root directory of the project
-├─ .vscode/                         # Visual Studio Code project-specific settings
-│  └─ settings.json                 # VSCode preferences (formatting, extensions, editor rules)
-├─ config/                          # Project configuration files
-   └─ .degitignore                  # Defines which files/folders Git should ignore
-│  └─ .editorconfig                 # Enforces consistent coding style across different editors
-│  └─ .gitignore                    # Defines which files/folders Git should ignore
-│  └─ .gitattributes                # Normalizes line endings and marks binary files
-│  └─ .prettierrc.json              # Prettier configuration file (code formatting rules)
-│  └─ .prettierignore               # Files/folders excluded from Prettier formatting
-├─ img/                             # Folder for image assets used in the project
-├─ src/                             # Source code directory
-│  └─ index.html                    # Main HTML entry file (project entry point)
-│  └─ styles.css                    # Base CSS stylesheet for styling
-├─ LICENSE                          # License file specifying usage terms (e.g., MIT)
-└─ README.md                        # Main documentation file with project description and usage
+basekit/                                # Root directory of the BaseKit template
+├─ .vscode/                             # Visual Studio Code project configuration
+│  └─ settings.json                     # VSCode preferences (formatting, extensions, editor rules)
+├─ img/                                 # Folder for image assets
+├─ src/                                 # Project source code
+│  ├─ index.html                        # Main HTML file (entry point)
+│  ├─ styles.css                        # Base CSS stylesheet
+├─ .editorconfig                        # Enforces consistent coding styles across editors/IDEs
+├─ .gitignore                           # Defines files/folders Git should ignore
+├─ .gitattributes                       # Normalizes line endings and defines binary files
+├─ .prettierrc.json                     # Prettier configuration file (formatting rules)
+├─ .prettierignore                      # Files/folders excluded from Prettier formatting
+├─ LICENSE                              # License for project usage (MIT or other)
+├─ README.md                            # Main documentation: description, usage, structure
+
 
 ```
 
