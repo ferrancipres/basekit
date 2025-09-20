@@ -1,4 +1,4 @@
-## Tipo
+## Type
 
 - [ ] feat
 - [ ] fix
@@ -7,13 +7,13 @@
 - [ ] refactor
 - [ ] test
 
-## Descripción
+## Description
 
-¿Qué cambia y por qué?
+What changes and why?
 
 ## Checklist
 
-- [ ] Linter/formato ok (Prettier)
-- [ ] README/docs actualizados si aplica
-- [ ] No rompe compatibilidad
-- [ ] Issue vinculada: closes #123
+- [ ] Linter/format ok (Prettier)
+- [ ] README/docs updated if applicable
+- [ ] Does not break compatibility
+- [ ] Linked issue: closes #123
