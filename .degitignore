@@ -1,0 +1,6 @@
+
+<!-- Excludes the .github folder (issue/PR templates, workflows) when using degit -->
+.github
+
+<!-- Excludes the SECURITY.md file (security policy, not needed in a one-off project) -->
+SECURITY.md
