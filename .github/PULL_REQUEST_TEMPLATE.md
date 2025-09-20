@@ -9,8 +9,6 @@
 
 ## Description
 
-What changes and why?
-
 ## Checklist
 
 - [ ] Linter/format ok (Prettier)

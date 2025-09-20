@@ -18,6 +18,20 @@ WARNINGS
 </p
 
 ---
+
+### 📊 Repository Badges
+
+<!-- Replace `ferrancipres/html-css-template` with your new repo -->
+
+![issues](https://img.shields.io/github/issues/ferrancipres/basekit)
+![pull requests](https://img.shields.io/github/issues-pr/ferrancipres/basekit)
+![last commit](https://img.shields.io/github/last-commit/ferrancipres/basekit)
+![repo size](https://img.shields.io/github/repo-size/ferrancipres/basekit)
+![code size](https://img.shields.io/github/languages/code-size/ferrancipres/basekit)
+![top language](https://img.shields.io/github/languages/top/ferrancipres/basekit)
+
+---
+
 #### 📌 Quick Access
 
 - [README.md](README.md)
@@ -109,20 +123,14 @@ cd <repo>
 
 ---
 
-#### Project Structure*
+#### Project Structure
 
 ```sh
 project-name/                       # Root directory of the project
-├─ .github/                         # GitHub-specific configurations and templates
-│  └─ ISSUE_TEMPLATE/               # Directory containing issue templates
-│     └─ bug_report.md              # Template for reporting bugs (predefined structure)
-│     └─ feature_request.md         # Template for suggesting new features or improvements
-│  └─ CODEOWNERS                    # Defines repository code owners who must review changes
-│  └─ FUNDING.yml                   # Configures sponsor links (GitHub Sponsors, BuyMeACoffee, etc.)
-│  └─ PULL_REQUEST_TEMPLATE.md      # Template for standardizing Pull Requests
 ├─ .vscode/                         # Visual Studio Code project-specific settings
 │  └─ settings.json                 # VSCode preferences (formatting, extensions, editor rules)
 ├─ config/                          # Project configuration files
+   └─ .degitignore                  # Defines which files/folders Git should ignore
 │  └─ .editorconfig                 # Enforces consistent coding style across different editors
 │  └─ .gitignore                    # Defines which files/folders Git should ignore
 │  └─ .gitattributes                # Normalizes line endings and marks binary files
@@ -132,10 +140,8 @@ project-name/                       # Root directory of the project
 ├─ src/                             # Source code directory
 │  └─ index.html                    # Main HTML entry file (project entry point)
 │  └─ styles.css                    # Base CSS stylesheet for styling
-├─ .degitignore                     # Defines which files/folders Git should ignore
 ├─ LICENSE                          # License file specifying usage terms (e.g., MIT)
-├─ README.md                        # Main documentation file with project description and usage
-└─ SECURITY.md                      # Main documentation file with project security
+└─ README.md                        # Main documentation file with project description and usage
 
 ```
 
@@ -171,19 +177,16 @@ npx prettier --write .
 
 #### Project Status
 
-Version: **0.1.0-beta**
+![version](https://img.shields.io/badge/version-1.0.0-green)
 
-<p>
-  <img src="https://img.shields.io/badge/version-0.1.0--beta-orange" alt="version">
-</p>
+![status](https://img.shields.io/badge/status-completed-brightgreen)
 
-Status: In progress
+<!-- ![status](https://img.shields.io/badge/status-in%20progress-yellow)
+![status](https://img.shields.io/badge/status-planning-blue)
+![status](https://img.shields.io/badge/status-maintenance-orange)
+![status](https://img.shields.io/badge/status-deprecated-lightgrey)
 
-<p>
-  <img src="https://img.shields.io/badge/status-in%20progress-yellow" alt="status">
-</p>
-
----
+--- -->
 
 #### Contributing
 
@@ -224,6 +227,7 @@ See [LICENSE](./LICENSE) for details.
 ---
 
 #### Changelog
+
 All notable changes to this project will be documented here.
 [1.0.0] - 2025-09-20
 
