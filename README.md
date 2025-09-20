@@ -110,7 +110,7 @@ cd <repo>
 
 ---
 
-#### Project Structure
+#### Project Structure*
 
 ```sh
 project-name/                       # Root directory of the project
