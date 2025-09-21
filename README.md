@@ -127,13 +127,6 @@ cd <repo>
 
 ```sh
 basekit/                                # Root directory of the BaseKit template
-├─ .github/                             # GitHub-specific configuration and templates
-│  └─ ISSUE_TEMPLATE/                   # Directory containing issue templates
-│     └─ bug_report.md                  # Template for reporting reproducible bugs
-│     └─ feature_request.md             # Template for suggesting new features
-│  └─ CODEOWNERS                        # Defines repository code owners who must review PRs
-│  └─ FUNDING.yml                       # Configures sponsor links (GitHub Sponsors, BuyMeACoffee, etc.)
-│  └─ PULL_REQUEST_TEMPLATE.md          # Template for standardizing Pull Requests
 ├─ .vscode/                             # Visual Studio Code project configuration
 │  └─ settings.json                     # VSCode preferences (formatting, extensions, editor rules)
 ├─ img/                                 # Folder for image assets
@@ -145,13 +138,7 @@ basekit/                                # Root directory of the BaseKit template
 ├─ .gitattributes                       # Normalizes line endings and defines binary files
 ├─ .prettierrc.json                     # Prettier configuration file (formatting rules)
 ├─ .prettierignore                      # Files/folders excluded from Prettier formatting
-├─ CHANGELOG.md                         # Version history and notable project changes
-├─ CODE_OF_CONDUCT.md                   # Contributor behavior rules (Contributor Covenant)
-├─ CONTRIBUTING.md                      # Contribution guidelines (workflow, branches, PR rules)
-├─ LICENSE                              # License for project usage (MIT or other)
-├─ README.md                            # Main documentation: description, usage, structure
-├─ SECURITY.md                          # Security policy and vulnerability reporting process
-└─ SUPPORT.md                           # How to get help (issues, scope, response times)
+
 ```
 
 ---
