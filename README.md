@@ -138,9 +138,6 @@ basekit/                                # Root directory of the BaseKit template
 ├─ .gitattributes                       # Normalizes line endings and defines binary files
 ├─ .prettierrc.json                     # Prettier configuration file (formatting rules)
 ├─ .prettierignore                      # Files/folders excluded from Prettier formatting
-├─ LICENSE                              # License for project usage (MIT or other)
-├─ README.md                            # Main documentation: description, usage, structure
-
 
 ```
 
